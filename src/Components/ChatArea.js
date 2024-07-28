@@ -6,8 +6,18 @@ import SendIcon from '@mui/icons-material/Send';
 import SearchIcon from '@mui/icons-material/Search';
 import MessageSelf from './MessageSelf';
 import Messageothers from './MessageOthers';
+import { useState } from 'react';
 
-export default function ChatArea({props}) {
+export default function ChatArea() {
+  const [headerText, setHeaderText] = useState([
+    {
+      id: "1",
+      name: "Test 1",
+      status : "online",
+      timeStamp : "today"
+    }
+  ]);
+  const props = headerText[0];
   return (
     <div className='chat-area-container'>
       <div className='chat-area-header'>

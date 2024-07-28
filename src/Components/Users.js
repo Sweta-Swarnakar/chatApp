@@ -3,7 +3,7 @@ import React from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import smallIcon from '../icons/small_icon.png';
 
-export default function UserGroups() {
+export default function Users() {
   return <div className="user-groups-list-container">
      <div className="ug-header">
         <img src={smallIcon} />

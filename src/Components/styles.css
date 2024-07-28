@@ -269,4 +269,58 @@
 .login-box .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
     background-color: palevioletred;
 }
+
+.user-groups-list-container {
+    flex: 0.7;
+    flex-direction: column;
+}
+
+.ug-header {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ug-title {
+   color: black;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.ug-list {
+    flex: 1;
+    overflow: scroll;
+    scrollbar-width: none;
+    padding: 10px;
+}
+
+.ug-list::-webkit-scrollbar{
+    display: none;
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    transition-duration: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.list-items:hover {
+  background-color: lightgray;
+}
+
+.list-items:active {
+    background-color: lightgray;
+  }
+    
   
